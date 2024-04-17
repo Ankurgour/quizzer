@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "question": "What is the primary use of Node.js?",
+      "options": ["Front-end development", "Back-end development", "Mobile app development"],
+      "correctAnswer": "Back-end development"
+    },
+    {
+      "id": 2,
+      "question": "What is an event loop in Node.js?",
+      "options": ["A loop that iterates through events", "A mechanism that handles I/O operations asynchronously", "A function to handle errors"],
+      "correctAnswer": "A mechanism that handles I/O operations asynchronously"
+    },
+    {
+      "id": 3,
+      "question": "What is a callback function in Node.js?",
+      "options": ["A function that calls another function", "A function passed as an argument to another function to be executed later", "A function that handles events"],
+      "correctAnswer": "A function passed as an argument to another function to be executed later"
+    },
+    {
+      "id": 4,
+      "question": "What is a module in Node.js?",
+      "options": ["A reusable block of code whose existence does not accidentally impact other code", "A file that contains JavaScript code", "A function that returns a promise"],
+      "correctAnswer": "A reusable block of code whose existence does not accidentally impact other code"
+    },
+    {
+      "id": 5,
+      "question": "Which package manager is commonly used with Node.js?",
+      "options": ["NPM", "Bower", "Yarn"],
+      "correctAnswer": "NPM"
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of package.json in Node.js projects?",
+      "options": ["To store project metadata", "To define project dependencies", "Both of the above"],
+      "correctAnswer": "Both of the above"
+    },
+    {
+      "id": 7,
+      "question": "Which method is used to include modules in Node.js?",
+      "options": ["include", "require", "import"],
+      "correctAnswer": "require"
+    },
+    {
+      "id": 8,
+      "question": "What is the default event loop implementation in Node.js?",
+      "options": ["libuv", "V8", "Node.js itself"],
+      "correctAnswer": "libuv"
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of Node.js 'fs' module?",
+      "options": ["To handle file system operations", "To interact with databases", "To send HTTP requests"],
+      "correctAnswer": "To handle file system operations"
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of Node.js 'http' module?",
+      "options": ["To handle HTTP requests and responses", "To create web servers", "Both of the above"],
+      "correctAnswer": "Both of the above"
+    }
+  ]
+  
