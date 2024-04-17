@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import quizQuestions from '../quizzer/src/quizQuestions.json' assert { type: 'json' };
+import quizQuestions from './src/quizQuestions.json' assert { type: 'json' };
 import cors from 'cors';
 
 const app = express();
