@@ -26,7 +26,7 @@ function FrontEndQuizApp() {
 
   const selectAnswer = async (answer) => {
     try {
-      const response = await axios.post('http://localhost:3001/answer', {
+      const response = await axios.post('https://quizzer-pkjn.onrender.com/answer', {
         questionId: currentQuestion.id,
         answer: answer,
       });
@@ -52,7 +52,7 @@ function FrontEndQuizApp() {
 
   const fetchNextQuestion = async () => {
     try {
-      const response = await axios.get('http://localhost:3001/question');
+      const response = await axios.get('https://quizzer-pkjn.onrender.com/question');
       const nextQuestion = response.data;
       if (!visitedQuestions.includes(nextQuestion.id)) {
         setCurrentQuestion(nextQuestion);
